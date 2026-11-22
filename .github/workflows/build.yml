@@ -23,7 +23,7 @@ jobs:
       - name: Extract Project ZIP
         run: |
           mkdir project
-          unzip -q GraveX_Project.zip -d project
+          unzip -q GraveX_v2.zip -d project
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
